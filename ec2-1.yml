@@ -15,7 +15,7 @@ Resources:
   EC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      InstanceType: t2.micro
+      InstanceType: t3.micro
       ImageId: ami-04542995864e26699 # Amazon Linux 2 (update for your region)
       KeyName: day1devOps
       SecurityGroupIds:
